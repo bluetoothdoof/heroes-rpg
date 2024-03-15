@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'pt-BR'
+title = 'Sistema Heróis'
+theme = 'hugo-book'
+
+# (Optional) Theme is intended for documentation use, therefore it doesn't render taxonomy.
+# You can remove related files with config below
+# disableKinds = ['taxonomy']
+
+[params]
+  BookTheme = 'light'
+  BookComments = false
+  BookServiceWorker = true

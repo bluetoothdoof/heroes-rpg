@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Condições e Contratempos # Às vezes, o personagem tem alguma coisa que dá uma vantagem (ou desvantagem) pra ele: para o sistema, essas coisas são representadas como condições, que são efetivamente stats temporários.
+Se a condição for ajudar o personagem em um teste, ele rola o dado da condição junto com os outros stats. Se a condição for atrapalhar o personagem em um teste, o GM rola o dado da condição e adiciona o valor rolado à dificuldade do teste.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Condições e Contratempos" />
+<meta property="og:description" content="Condições e Contratempos # Às vezes, o personagem tem alguma coisa que dá uma vantagem (ou desvantagem) pra ele: para o sistema, essas coisas são representadas como condições, que são efetivamente stats temporários.
+Se a condição for ajudar o personagem em um teste, ele rola o dado da condição junto com os outros stats. Se a condição for atrapalhar o personagem em um teste, o GM rola o dado da condição e adiciona o valor rolado à dificuldade do teste." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.org/docs/conditions/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Condições e Contratempos | Sistema Heróis</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://example.org/docs/conditions/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.8903e7839dd8b1811c164d87f07aef27db82b333bc4084c07f6b35983e4d0235.js" integrity="sha256-iQPng53YsYEcFk2H8HrvJ9uCszO8QITAf2s1mD5NAjU=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Sistema Heróis</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/overview/" class="">Visão Geral</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/stats/" class="">Estatísticas</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/conditions/" class="active">Condições e Contratempos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/plot/" class="">Pontos de Enredo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/sfx/" class="">Habilidades</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/powers/" class="">Poderes e Fraquezas</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/progression/" class="">Progressão</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/combat/" class="">Conflito</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/stress/" class="">Estresse</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/char-creation/" class="">Criação de Personagens</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/about/" class="">Sobre</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Condições e Contratempos</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="condições-e-contratempos">
+  Condições e Contratempos
+  <a class="anchor" href="#condi%c3%a7%c3%b5es-e-contratempos">#</a>
+</h1>
+<p>Às vezes, o personagem tem alguma coisa que dá uma vantagem (ou desvantagem) pra ele: para o sistema, essas coisas são representadas como condições, que são efetivamente stats temporários.</p>
+<p>Se a condição for ajudar o personagem em um teste, ele rola o dado da condição junto com os outros stats. Se a condição for atrapalhar o personagem em um teste, o GM rola o dado da condição e adiciona o valor rolado à dificuldade do teste.</p>
+<p>O jeito mais comum de se conseguir uma condição é através de um contratempo: quando um jogador rola um dado e dá o valor de <strong>1</strong>. Além de dar uma condição (geralmente negativa), um contratempo também dá um ponto de <strong>Enredo</strong> pro jogador.</p>
+<p>Quando o GM rola um contratempo, chamamos de <strong>oportunidade</strong>. Nesse caso, os jogadores podem gastar um ponto de enredo para diminuir o dado de uma condição deles ou aumentar o dado de condição de um outro personagem. Só um jogador pode ativar uma dada oportunidade.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
