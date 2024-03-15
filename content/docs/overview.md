@@ -18,3 +18,7 @@ De maneira geral o jogador vai jogar 4 dados, às vezes jogando mais ou menos: u
 Dito isso, o jogador não vai usar todos os dados: ele vai escolher dois dos valores para ser a soma dele, e escolher um terceiro dado (se rolar 3 ou mais dados) para ser o dado de efeito: um dado que diz se o efeito foi forte, fraco, mediano, etc.
 
 O valor do dado de efeito não importa - só o número de lados dele: um **d4** indica um efeito muito fraco e um **d12** indica um efeito muito forte.
+
+De maneira geral, tudo que precisarmos gradar em uma escala no sistema vai usar escala: de **d4** a **d12**, onde **d4** representa algo muito fraco e **d12** algo muito forte. 
+
+E quando dizemos “aumentar um dado” significa ir pro próximo dado da escala, e “diminuir um dado”, significa ir pro dado anterior. Diminuir um **d4** ou aumentar um **d12** causam falha e sucesso automáticos, respectivamente. 

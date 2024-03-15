@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/docs/overview/</loc>
+    <loc>http://localhost:1313/docs/overview/</loc>
   </url><url>
-    <loc>https://example.org/docs/stats/</loc>
+    <loc>http://localhost:1313/docs/stats/</loc>
   </url><url>
-    <loc>https://example.org/docs/conditions/</loc>
+    <loc>http://localhost:1313/docs/abordagem/</loc>
   </url><url>
-    <loc>https://example.org/docs/plot/</loc>
+    <loc>http://localhost:1313/docs/skills/</loc>
   </url><url>
-    <loc>https://example.org/docs/sfx/</loc>
+    <loc>http://localhost:1313/docs/conditions/</loc>
   </url><url>
-    <loc>https://example.org/docs/powers/</loc>
+    <loc>http://localhost:1313/docs/plot/</loc>
   </url><url>
-    <loc>https://example.org/docs/progression/</loc>
+    <loc>http://localhost:1313/docs/sfx/</loc>
   </url><url>
-    <loc>https://example.org/docs/combat/</loc>
+    <loc>http://localhost:1313/docs/powers/</loc>
   </url><url>
-    <loc>https://example.org/docs/stress/</loc>
+    <loc>http://localhost:1313/docs/progression/</loc>
   </url><url>
-    <loc>https://example.org/docs/char-creation/</loc>
+    <loc>http://localhost:1313/docs/combat/</loc>
   </url><url>
-    <loc>https://example.org/docs/about/</loc>
+    <loc>http://localhost:1313/docs/stress/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/docs/char-creation/</loc>
   </url><url>
-    <loc>https://example.org/docs/</loc>
+    <loc>http://localhost:1313/docs/about/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/docs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

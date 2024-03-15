@@ -1,0 +1,16 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    touch-action: manipulation;
+    line-height: 1.15;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    letter-spacing: .33px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
